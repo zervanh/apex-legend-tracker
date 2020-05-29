@@ -7,7 +7,7 @@
         <select name="platform" id="platform" v-model="platform">
           <option value="psn">Playstation</option>
           <option value="xbl">Xbox</option>
-          <option value="Origin">Origin</option>
+          <option value="origin">Origin</option>
         </select>
       </div>
       <div class="form-group">
@@ -32,7 +32,7 @@ export default {
   name: "Search",
   data() {
     return {
-      platform: "psn",
+      platform: "origin",
       gamertag: ""
     };
   },
